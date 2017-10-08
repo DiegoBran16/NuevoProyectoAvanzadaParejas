@@ -52,6 +52,7 @@ namespace proyectoDip
                         if (biblioLeyes[i] == null)
                         {
                             biblioLeyes[i] = nuevaLey;
+                            break;
 
                         }
                         else
@@ -66,9 +67,7 @@ namespace proyectoDip
                     menu m = new menu(users,grupos,usuarioactual,biblioLeyes);
                     m.Show();
                     this.Hide();
-
-
-
+                    
                 }
             }
         }

@@ -70,6 +70,7 @@ namespace proyectoDip
                     menu m = new menu(users, grupos, usuarioActualM, biblioLeyes);
                     m.Show();
                     this.Hide();
+                    break;
 
                 }
             }

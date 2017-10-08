@@ -16,9 +16,7 @@ namespace proyectoDip
         private int sz = 0;
         public queue()
         {
-            f = -1;
-            sz = -1;
-            
+  
             cLeyes = new string[CAPACITY];
 
 
@@ -75,7 +73,7 @@ namespace proyectoDip
             string lt = "";
             if (isEmpty() == true)
             {
-                MessageBox.Show("no hay leyes en el sistema");
+                MessageBox.Show("no hay más leyes en el sistema");
 
                 return lt;
             }

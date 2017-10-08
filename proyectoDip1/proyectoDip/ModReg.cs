@@ -55,12 +55,23 @@ namespace proyectoDip
             {
 
                 tmp[posicionReg()].setInfoReglamento(txtNewReg.Text);
-                
-                tmp[posicionReg()].asignarCopiasR();
                 tmp[posicionReg()].retirarCopiasMod(txtNewReg.Text);
+                tmp[posicionReg()].asignarCopiasR();
+                
 
-                    
-                }
+                menu m = new menu(users, grupos, usuarioActualM, biblioLeyes);
+                m.Show();
+                this.Hide();
+                break;
+
+            }
+            if (verificarLey() == true) {
+                MessageBox.Show(" la ley no se encuentra en el sistema");
+            }
+            if ( verificarReg() == false)
+            {
+                MessageBox.Show(" el reglamento  no se encuentra en el sistema");
+            }
 
 
             }
@@ -90,7 +101,7 @@ namespace proyectoDip
 
         private bool verificarReg()
         {
-            if (verificarLey() == true)
+            if (verificarLey() == false)
             {
                 for (int n = 0; n < 500; n++)
                 {
@@ -99,7 +110,7 @@ namespace proyectoDip
                        tmp= biblioLeyes[n].getReglamentos();
                         if (tmp[posicionReg()].getInfoReglamento() == txtReg.Text)
 
-                            return true; ;
+                            return true; 
                             break;
                         }
                     }

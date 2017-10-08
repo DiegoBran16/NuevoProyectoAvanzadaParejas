@@ -232,7 +232,7 @@ namespace proyectoDip
         { int n = 0;
             for(int i = 0; i < 200; i++)
             {
-                if(grupos[i].getNombre()== grupoI)
+                if(grupos[i]!=null && grupos[i].getNombre()== grupoI)
                 {
                     return n;
                 }

@@ -53,4 +53,24 @@ C:\Users\diego\Desktop\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.Properties
 C:\Users\diego\Desktop\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.csproj.GenerateResource.Cache
 C:\Users\diego\Desktop\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.FormCReg.resources
 C:\Users\diego\Desktop\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.ModLey.resources
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\bin\Debug\proyectoDip.exe.config
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.exe
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.pdb
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\bin\Debug\proyectoDip.exe
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\bin\Debug\proyectoDip.pdb
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.csprojResolveAssemblyReference.cache
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.CrearU.resources
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.Form1.resources
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.FormCLey.resources
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.FormCReg.resources
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.menu.resources
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.modificar_usuario.resources
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.ModLey.resources
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.ModReg.resources
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.Properties.Resources.resources
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.csproj.GenerateResource.Cache
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.Devolucion.resources
+C:\Users\Walter Erazo\Desktop\NuevoProyectoAvanzadaParejas-master\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.Prestamo.resources
+C:\Users\diego\Desktop\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.Devolucion.resources
 C:\Users\diego\Desktop\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.ModReg.resources
+C:\Users\diego\Desktop\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.Prestamo.resources

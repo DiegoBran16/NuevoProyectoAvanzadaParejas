@@ -44,25 +44,27 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(305, 17);
+            this.label1.Size = new System.Drawing.Size(314, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "ingrese la ley a la que pertenece el reglamento";
+            this.label1.Text = "Ingrese la Ley a la que pertenece el reglamento:";
             // 
             // txtLey
             // 
-            this.txtLey.Location = new System.Drawing.Point(3, 59);
+            this.txtLey.Location = new System.Drawing.Point(16, 59);
+            this.txtLey.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtLey.Multiline = true;
             this.txtLey.Name = "txtLey";
-            this.txtLey.Size = new System.Drawing.Size(326, 110);
+            this.txtLey.Size = new System.Drawing.Size(327, 110);
             this.txtLey.TabIndex = 1;
             // 
             // btnMod
             // 
-            this.btnMod.Location = new System.Drawing.Point(435, 234);
+            this.btnMod.Location = new System.Drawing.Point(435, 215);
+            this.btnMod.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMod.Name = "btnMod";
-            this.btnMod.Size = new System.Drawing.Size(190, 23);
+            this.btnMod.Size = new System.Drawing.Size(189, 31);
             this.btnMod.TabIndex = 2;
-            this.btnMod.Text = "modificar";
+            this.btnMod.Text = "Modificar";
             this.btnMod.UseVisualStyleBackColor = true;
             this.btnMod.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -71,54 +73,58 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 199);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(218, 17);
+            this.label2.Size = new System.Drawing.Size(227, 17);
             this.label2.TabIndex = 3;
-            this.label2.Text = "ingrese el reglamento a modificar";
+            this.label2.Text = "Ingrese el Reglamento a modificar:";
             // 
             // txtReg
             // 
-            this.txtReg.Location = new System.Drawing.Point(3, 247);
+            this.txtReg.Location = new System.Drawing.Point(16, 234);
+            this.txtReg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtReg.Multiline = true;
             this.txtReg.Name = "txtReg";
-            this.txtReg.Size = new System.Drawing.Size(326, 110);
+            this.txtReg.Size = new System.Drawing.Size(327, 110);
             this.txtReg.TabIndex = 4;
             this.txtReg.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(387, 35);
+            this.label3.Location = new System.Drawing.Point(387, 34);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(193, 17);
+            this.label3.Size = new System.Drawing.Size(194, 17);
             this.label3.TabIndex = 5;
-            this.label3.Text = "ingrese la nueva informaciion";
+            this.label3.Text = "Ingrese la nueva informacion:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtNewReg
             // 
-            this.txtNewReg.Location = new System.Drawing.Point(390, 59);
+            this.txtNewReg.Location = new System.Drawing.Point(389, 59);
+            this.txtNewReg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNewReg.Multiline = true;
             this.txtNewReg.Name = "txtNewReg";
-            this.txtNewReg.Size = new System.Drawing.Size(326, 110);
+            this.txtNewReg.Size = new System.Drawing.Size(327, 110);
             this.txtNewReg.TabIndex = 6;
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(435, 286);
+            this.btnEliminar.Location = new System.Drawing.Point(435, 262);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(190, 23);
+            this.btnEliminar.Size = new System.Drawing.Size(189, 31);
             this.btnEliminar.TabIndex = 7;
-            this.btnEliminar.Text = "eliminar";
+            this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnRegresar
             // 
-            this.btnRegresar.Location = new System.Drawing.Point(435, 334);
+            this.btnRegresar.Location = new System.Drawing.Point(435, 309);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(190, 23);
+            this.btnRegresar.Size = new System.Drawing.Size(189, 36);
             this.btnRegresar.TabIndex = 8;
-            this.btnRegresar.Text = "regresar";
+            this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = true;
             this.btnRegresar.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -126,7 +132,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(739, 475);
+            this.ClientSize = new System.Drawing.Size(739, 389);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.txtNewReg);
@@ -136,6 +142,7 @@
             this.Controls.Add(this.btnMod);
             this.Controls.Add(this.txtLey);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ModReg";
             this.Text = "ModReg";
             this.Load += new System.EventHandler(this.ModReg_Load);

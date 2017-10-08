@@ -43,100 +43,105 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(119, 65);
+            this.label1.Location = new System.Drawing.Point(89, 53);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(25, 17);
+            this.label1.Size = new System.Drawing.Size(21, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "ID ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(245, 62);
-            this.txtId.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtId.Location = new System.Drawing.Point(184, 50);
+            this.txtId.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(100, 22);
+            this.txtId.Size = new System.Drawing.Size(76, 20);
             this.txtId.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(119, 126);
+            this.label2.Location = new System.Drawing.Point(89, 102);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 17);
+            this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "grupo";
+            this.label2.Text = "Grupo:";
             // 
             // txtGrupo
             // 
-            this.txtGrupo.Location = new System.Drawing.Point(245, 123);
-            this.txtGrupo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtGrupo.Location = new System.Drawing.Point(184, 100);
+            this.txtGrupo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtGrupo.Name = "txtGrupo";
-            this.txtGrupo.Size = new System.Drawing.Size(100, 22);
+            this.txtGrupo.Size = new System.Drawing.Size(76, 20);
             this.txtGrupo.TabIndex = 3;
             this.txtGrupo.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(119, 206);
+            this.label3.Location = new System.Drawing.Point(89, 151);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
+            this.label3.Size = new System.Drawing.Size(38, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Cargo";
+            this.label3.Text = "Cargo:";
             // 
             // txtCargo
             // 
-            this.txtCargo.Location = new System.Drawing.Point(245, 206);
-            this.txtCargo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtCargo.Location = new System.Drawing.Point(184, 144);
+            this.txtCargo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCargo.Name = "txtCargo";
-            this.txtCargo.Size = new System.Drawing.Size(100, 22);
+            this.txtCargo.Size = new System.Drawing.Size(76, 20);
             this.txtCargo.TabIndex = 5;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(391, 274);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(292, 228);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 37);
+            this.button1.Size = new System.Drawing.Size(65, 30);
             this.button1.TabIndex = 6;
-            this.button1.Text = "crear";
+            this.button1.Text = "Crear";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lab
             // 
             this.lab.AutoSize = true;
-            this.lab.Location = new System.Drawing.Point(117, 263);
+            this.lab.Location = new System.Drawing.Point(89, 196);
+            this.lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lab.Name = "lab";
-            this.lab.Size = new System.Drawing.Size(79, 17);
+            this.lab.Size = new System.Drawing.Size(64, 13);
             this.lab.TabIndex = 7;
-            this.lab.Text = "contraseña";
+            this.lab.Text = "Contraseña:";
             // 
             // txtContra
             // 
-            this.txtContra.Location = new System.Drawing.Point(245, 263);
-            this.txtContra.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtContra.Location = new System.Drawing.Point(184, 189);
+            this.txtContra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtContra.Name = "txtContra";
             this.txtContra.PasswordChar = '*';
-            this.txtContra.Size = new System.Drawing.Size(100, 22);
+            this.txtContra.Size = new System.Drawing.Size(76, 20);
             this.txtContra.TabIndex = 8;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 288);
+            this.button2.Location = new System.Drawing.Point(97, 228);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(73, 30);
             this.button2.TabIndex = 9;
-            this.button2.Text = "regresar";
+            this.button2.Text = "Regresar";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // CrearU
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 341);
+            this.ClientSize = new System.Drawing.Size(397, 277);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txtContra);
             this.Controls.Add(this.lab);
@@ -147,7 +152,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "CrearU";
             this.Text = "CrearU";
             this.Load += new System.EventHandler(this.CrearU_Load);

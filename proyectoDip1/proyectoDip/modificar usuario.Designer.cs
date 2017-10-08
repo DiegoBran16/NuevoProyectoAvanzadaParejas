@@ -36,49 +36,54 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.txtContra = new System.Windows.Forms.TextBox();
             this.btnRegresar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(10, 113);
+            this.txtID.Location = new System.Drawing.Point(8, 90);
+            this.txtID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(100, 22);
+            this.txtID.Size = new System.Drawing.Size(76, 20);
             this.txtID.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 60);
+            this.label2.Location = new System.Drawing.Point(14, 49);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 17);
+            this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 2;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtCargo
             // 
-            this.txtCargo.Location = new System.Drawing.Point(150, 173);
+            this.txtCargo.Location = new System.Drawing.Point(112, 155);
+            this.txtCargo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCargo.Name = "txtCargo";
-            this.txtCargo.Size = new System.Drawing.Size(100, 22);
+            this.txtCargo.Size = new System.Drawing.Size(76, 20);
             this.txtCargo.TabIndex = 6;
             // 
             // txtGrupo
             // 
-            this.txtGrupo.Location = new System.Drawing.Point(0, 173);
+            this.txtGrupo.Location = new System.Drawing.Point(8, 155);
+            this.txtGrupo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtGrupo.Name = "txtGrupo";
-            this.txtGrupo.Size = new System.Drawing.Size(100, 22);
+            this.txtGrupo.Size = new System.Drawing.Size(76, 20);
             this.txtGrupo.TabIndex = 7;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 80);
+            this.label3.Location = new System.Drawing.Point(5, 65);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(19, 17);
+            this.label3.Size = new System.Drawing.Size(16, 13);
             this.label3.TabIndex = 10;
             this.label3.Text = "Id";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -86,83 +91,91 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(178, 153);
+            this.label4.Location = new System.Drawing.Point(109, 124);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 17);
+            this.label4.Size = new System.Drawing.Size(41, 13);
             this.label4.TabIndex = 11;
-            this.label4.Text = "cargo ";
+            this.label4.Text = "Cargo: ";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 138);
+            this.label1.Location = new System.Drawing.Point(5, 124);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 17);
+            this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 12;
-            this.label1.Text = "grupo";
+            this.label1.Text = "Grupo:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(7, 43);
+            this.label5.Location = new System.Drawing.Point(5, 24);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 17);
+            this.label5.Size = new System.Drawing.Size(38, 13);
             this.label5.TabIndex = 13;
             this.label5.Text = " Datos";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(33, 226);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(158, 37);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "modificar ";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(33, 285);
+            this.button2.Location = new System.Drawing.Point(171, 232);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(158, 32);
+            this.button2.Size = new System.Drawing.Size(118, 26);
             this.button2.TabIndex = 16;
-            this.button2.Text = "eliminar Usuario ";
+            this.button2.Text = "Eliminar Usuario ";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(158, 80);
+            this.label7.Location = new System.Drawing.Point(109, 65);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(81, 17);
+            this.label7.Size = new System.Drawing.Size(61, 13);
             this.label7.TabIndex = 17;
             this.label7.Text = "Contraseña";
             // 
             // txtContra
             // 
-            this.txtContra.Location = new System.Drawing.Point(150, 113);
+            this.txtContra.Location = new System.Drawing.Point(112, 92);
+            this.txtContra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtContra.Name = "txtContra";
-            this.txtContra.Size = new System.Drawing.Size(100, 22);
+            this.txtContra.Size = new System.Drawing.Size(76, 20);
             this.txtContra.TabIndex = 18;
             this.txtContra.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnRegresar
             // 
-            this.btnRegresar.Location = new System.Drawing.Point(0, 0);
+            this.btnRegresar.Location = new System.Drawing.Point(61, 232);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(75, 23);
+            this.btnRegresar.Size = new System.Drawing.Size(70, 26);
             this.btnRegresar.TabIndex = 19;
-            this.btnRegresar.Text = "regresar";
+            this.btnRegresar.Text = "Regresar";
             this.btnRegresar.UseVisualStyleBackColor = true;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(318, 232);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 26);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Modificar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // modificar_usuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(286, 346);
+            this.ClientSize = new System.Drawing.Size(508, 294);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.txtContra);
             this.Controls.Add(this.label7);
@@ -176,6 +189,7 @@
             this.Controls.Add(this.txtCargo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtID);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "modificar_usuario";
             this.Text = "modificar_usuario";
             this.Load += new System.EventHandler(this.modificar_usuario_Load);
@@ -194,10 +208,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtContra;
         private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -94,6 +94,11 @@ namespace proyectoDip
                         this.Hide();
                         break;
                     }
+                    else
+                    {
+                        MessageBox.Show("usuario o contraseña incorrectos");
+                        break;
+                    }
                 }
                 break;
             }

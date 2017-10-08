@@ -27,6 +27,7 @@ namespace proyectoDip
             for (int i = 0; i < copiasEnLaCola; i++)
             {
                 copiasReg.enqueue(infoReglamento);
+                break;
 
             }
         }

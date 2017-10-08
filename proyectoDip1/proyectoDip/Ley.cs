@@ -9,12 +9,12 @@ namespace proyectoDip
 {
     public class Ley
     {
-        private Reglamentos[] reglamentosDeLey;
+       
         private string infoDeLey;
         private  string contenidoDeLey;
         private int numReglamentos=0;
         queue copiasLey = new queue();
-        queue copiasReg = new queue();
+      
         private int copaiasDisponibles = 5;
         Reglamentos[] reg = new Reglamentos[5];
 
@@ -104,12 +104,12 @@ namespace proyectoDip
          }
         public Reglamentos[] getReglamentos()
         {
-            return reglamentosDeLey;
+            return reg;
         }
 
         public void setReglamentos(Reglamentos[] rglmts)
         {
-            this.reglamentosDeLey = rglmts;
+            this.reg = rglmts;
         }
 
     }

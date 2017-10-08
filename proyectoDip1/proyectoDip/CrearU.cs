@@ -113,13 +113,13 @@ namespace proyectoDip
                 if (verificarGrupo() == true)
 
                 {
-                    MessageBox.Show(" EL grupo al que desea pertenecer no existe");
+                    MessageBox.Show(" Usted fue asignado al gurpo desado" );
                 }
                 if (verificarId() == false)
                 {
                     MessageBox.Show(" EL nombre de usuario ya fue utilizado");
                 }
-                while (verificarGrupo() == false && verificarId() == true)
+                while (verificarGrupo() == true && verificarId() == true)
                 {
 
 

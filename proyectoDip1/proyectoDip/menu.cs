@@ -68,7 +68,30 @@ namespace proyectoDip
 
         private void button4_Click(object sender, EventArgs e)
         {
+            ModReg modificarreglamento = new ModReg(users, grupos, usuarioActualM, biblioLeyes);
+            modificarreglamento.Show();
+            this.Hide();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Prestamo PrestarLey = new Prestamo(users, grupos, usuarioActualM);
+            PrestarLey.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Devolucion Devolverley = new Devolucion(users, grupos, usuarioActualM);
+            Devolverley.Show();
+            this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form1 SalirSeccion = new Form1();
+            SalirSeccion.Show();
+            this.Hide();
         }
     }
 }
