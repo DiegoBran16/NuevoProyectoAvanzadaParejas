@@ -18,7 +18,7 @@ namespace proyectoDip
         string usuarioActualM;
         Reglamentos[] tmp = new Reglamentos[5];
 
-        public ModReg(Usuario[] u, Grupo g, string us,Ley[] bl=null)
+        public ModReg(Usuario[] u, Grupo[] g, string us,Ley[] bl=null)
         {
             InitializeComponent();
             users = u;

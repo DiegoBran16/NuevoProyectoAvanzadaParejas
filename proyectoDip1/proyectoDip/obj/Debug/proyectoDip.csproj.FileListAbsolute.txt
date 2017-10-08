@@ -53,3 +53,4 @@ C:\Users\diego\Desktop\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.Properties
 C:\Users\diego\Desktop\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.csproj.GenerateResource.Cache
 C:\Users\diego\Desktop\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.FormCReg.resources
 C:\Users\diego\Desktop\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.ModLey.resources
+C:\Users\diego\Desktop\proyectoDip1\proyectoDip\obj\Debug\proyectoDip.ModReg.resources
