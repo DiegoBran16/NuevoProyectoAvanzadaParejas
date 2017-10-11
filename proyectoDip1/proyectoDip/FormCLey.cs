@@ -76,5 +76,14 @@ namespace proyectoDip
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            menu m = new menu(users, grupos, usuarioactual, biblioLeyes);
+            m.Show();
+            this.Hide();
+
+        }
     }
 }

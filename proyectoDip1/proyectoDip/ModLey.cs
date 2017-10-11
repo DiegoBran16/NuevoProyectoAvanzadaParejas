@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -18,6 +18,8 @@ namespace proyectoDip
         Ley[] biblioLeyes = new Ley[500];
         queue copiasLey = new queue();
         string usuarioActualM;
+        ArrayList mostrar = new ArrayList();
+        
         public ModLey(Usuario[] u, Grupo[] g, string UsuarioActual = "", Ley[] bl = null, queue cl = null)
         {
             InitializeComponent();
@@ -26,6 +28,21 @@ namespace proyectoDip
             usuarioActualM = UsuarioActual;
             biblioLeyes = bl;
             copiasLey = cl;
+
+            for (int i =0; i< 500; i++)
+            {
+                if (biblioLeyes[i] != null)
+                {
+                    mostrar.Add(biblioLeyes[i].getinfoDeLey());
+                }
+            }
+
+            for (int i = 0; i < mostrar.Count; i++)
+            {
+                listBox1.Items.Add(mostrar[i]);
+            }
+
+
 
 
         }
@@ -117,6 +134,11 @@ namespace proyectoDip
             menu m = new menu(users, grupos, usuarioActualM, biblioLeyes, copiasLey);
             m.Show();
             this.Hide();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

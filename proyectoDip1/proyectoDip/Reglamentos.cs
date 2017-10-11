@@ -9,7 +9,7 @@ namespace proyectoDip
     
     public class Reglamentos
     {
-            private queue copiasReg = new queue();
+        private queue copiasReg = new queue();
         private int copiasDisponibles = 5;
         private int copiasEnLaCola = 5;
         private string infoReglamento = "";
@@ -39,6 +39,7 @@ namespace proyectoDip
                 copiasReg.dequeue();
                 copiasDisponibles--;
                 copiasModCola++;
+                break;
 
 
             }
